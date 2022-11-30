@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="checkout_submit_before">
+        <observer name="studio3marketing_avataxcoloradoretailfee_observer_checkout_submitbefore_checkout_submit_before"
+                  instance="Studio3Marketing\AvataxColoradoRetailFee\Observer\Checkout\SubmitBefore"/>
+    </event>
+</config>
